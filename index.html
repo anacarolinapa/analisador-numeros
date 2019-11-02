@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Analisador de Números</title>
+
+    <link rel="stylesheet" href="estilo.css">
+
+    <link href="https://fonts.googleapis.com/css?family=Quicksand:400,600&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <h1>Analisador de Números</h1>
+    </header>
+
+    <section>
+        <div id="conteudo">
+            <label for="numero">Digite um número entre 1 a 100:</label>
+            <input type="number" name="numero" id="numero">
+
+            <div class="conteudo_individual">
+                <button type="button" name="adicionar" id="adicionar" onclick="adicionar()">Adicionar</button>
+            </div>
+
+            <div class="conteudo_individual">
+                <button type="button" name="finalizar" id="finalizar" onclick="finalizar()">Finalizar</button>
+            </div>
+
+            <div id="valores"></div>
+
+            <div id="resultado"></div>
+            
+            <div id="erro"></div>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; Desenvolvido por <span>Ana Carolina</span></p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
